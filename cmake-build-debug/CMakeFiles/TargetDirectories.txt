@@ -1,0 +1,3 @@
+C:/Users/chist/CLionProjects/SimplePython/cmake-build-debug/CMakeFiles/SimplePython.dir
+C:/Users/chist/CLionProjects/SimplePython/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/chist/CLionProjects/SimplePython/cmake-build-debug/CMakeFiles/rebuild_cache.dir
