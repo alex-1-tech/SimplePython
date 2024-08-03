@@ -104,7 +104,7 @@ namespace parse{
         template <typename T, typename U>
         void ExpectNext(const U& /*value*/) {
             using namespace std::literals;
-            // Заглушка. Реализуйте метод самостоятельно
+            //
             throw LexerError("Not implemented"s);
         }
     private:
