@@ -7,4 +7,5 @@ set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static-libstdc++ -static-libgcc")
 add_executable(SimplePython main.cpp
         lexer.h
         lexer.cpp
-        test_runner_p.h)
+        test_runner_p.h
+        lexer_test_open.cpp)

@@ -61,6 +61,12 @@ build CMakeFiles/SimplePython.dir/lexer.cpp.obj: CXX_COMPILER__SimplePython_unsc
   OBJECT_DIR = CMakeFiles\SimplePython.dir
   OBJECT_FILE_DIR = CMakeFiles\SimplePython.dir
 
+build CMakeFiles/SimplePython.dir/lexer_test_open.cpp.obj: CXX_COMPILER__SimplePython_unscanned_Debug C$:/Users/chist/CLionProjects/SimplePython/lexer_test_open.cpp || cmake_object_order_depends_target_SimplePython
+  DEP_FILE = CMakeFiles\SimplePython.dir\lexer_test_open.cpp.obj.d
+  FLAGS = -static-libstdc++ -static-libgcc -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SimplePython.dir
+  OBJECT_FILE_DIR = CMakeFiles\SimplePython.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SimplePython
@@ -69,7 +75,7 @@ build CMakeFiles/SimplePython.dir/lexer.cpp.obj: CXX_COMPILER__SimplePython_unsc
 #############################################
 # Link the executable SimplePython.exe
 
-build SimplePython.exe: CXX_EXECUTABLE_LINKER__SimplePython_Debug CMakeFiles/SimplePython.dir/main.cpp.obj CMakeFiles/SimplePython.dir/lexer.cpp.obj
+build SimplePython.exe: CXX_EXECUTABLE_LINKER__SimplePython_Debug CMakeFiles/SimplePython.dir/main.cpp.obj CMakeFiles/SimplePython.dir/lexer.cpp.obj CMakeFiles/SimplePython.dir/lexer_test_open.cpp.obj
   FLAGS = -static-libstdc++ -static-libgcc -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SimplePython.dir
